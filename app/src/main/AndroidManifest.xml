@@ -15,7 +15,7 @@
 <!--        android:theme="@style/Theme.Andriod_UI"-->
 
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity1"
             android:exported="true"
             android:theme="@style/Theme.Andriod_UI">
             <intent-filter>

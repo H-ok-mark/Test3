@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity1 extends AppCompatActivity {
     private View lastClickedView = null; // 用于跟踪上一个被点击的视图
     private ListView listView;
     private SimpleAdapter simpleAdapter;
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Map<String, Object> item = (Map<String, Object>) simpleAdapter.getItem(position); // 获取点击项的数据
                 String text = (String) item.get("text"); // 获取文本数据
-                Toast.makeText(MainActivity.this, "Selected: " + text, Toast.LENGTH_SHORT).show(); // 显示Toast消息
+                Toast.makeText(MainActivity1.this, "Selected: " + text, Toast.LENGTH_SHORT).show(); // 显示Toast消息
                 // 改变背景颜色
 
                 if (lastClickedView != null) {
