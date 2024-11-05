@@ -23,7 +23,7 @@ public class MainActivity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // 设置布局文件
+        setContentView(R.layout.activity_main1); // 设置布局文件
         listView = findViewById(R.id.listView); // 获取ListView控件
         setupListView(); // 初始化ListView
     }
